@@ -2,6 +2,9 @@
 # anything secret that gets added to my env will live in secrets.sh
 source ~/.secrets.sh
 
+# put my own /bin/ on path
+export PATH="$PATH:/Users/tristanmayshark/bin" 
+
 # general workspace definition
 export WORKSPACE="/Users/tristanmayshark/netapp"
 export workspace="/Users/tristanmayshark/netapp"
